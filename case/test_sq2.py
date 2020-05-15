@@ -9,7 +9,7 @@ class Test_sq2:
     def test_check_sq1(self):
        url = url_sql_test + path
        res = req.r_get(url).text
-       assert  res == "ok"
+       assert  res == "('中文', 95)"
 
 
 

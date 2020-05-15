@@ -1,2 +1,5 @@
 .idea
 src/py_cache_/sql
+case/
+common/
+__pycache__/
